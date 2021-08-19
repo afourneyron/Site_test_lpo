@@ -160,6 +160,16 @@ p {
   margin-bottom: 1rem;
 }
 
+
+
+polygon:hover{
+  fill:#1b1b1b;
+}
+
+.poly:hover{
+  fill:#1b1b1b;
+}
+
 abbr[title],
 abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
@@ -249,6 +259,13 @@ a:hover {
   color: #f6fafa;
 }
 .ddl_icons:hover {
+  color: #0076bd ;
+}
+
+.ddl_icons2 {
+  color: #0e1111;
+}
+.ddl_icons2:hover {
   color: #0076bd ;
 }
 
@@ -360,6 +377,11 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+.navimg {
+  width: 220px;
+	height: 80px;
 }
 
 button,
@@ -7954,7 +7976,7 @@ textarea.form-control-lg {
 
 .text-black-50 {
   --bs-text-opacity: 1;
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: #0e1111;
 }
 
 .text-white-50 {
@@ -11525,6 +11547,8 @@ body {
   #mainNav.navbar-shrink {
     background-color: #fff;
   }
+
+
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
   }
