@@ -7981,7 +7981,8 @@ textarea.form-control-lg {
 
 .text-white-50 {
   --bs-text-opacity: 1;
-  color: rgba(255, 255, 255, 0.5) !important;
+   color: rgba(255, 255, 255, 0.7) !important; 
+  /* color : #0076bd */
 }
 
 .text-reset {
@@ -8049,6 +8050,25 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color:  #1a171b ;
 }
+
+.bg-black2 {
+  --bs-bg-opacity: 1;
+  background-color:  #1a171b ;
+}
+
+.bg-black2:hover {
+  --bs-bg-opacity: 1;
+  background-color:  #0076bd ;
+}
+
+.text_trkl:link {
+ text-decoration:none; 
+} 
+
+.text_ddl {
+  color: #1a171b;
+}
+
 
 .bg-white {
   --bs-bg-opacity: 1;
@@ -11586,7 +11606,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/test-5.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/test-3.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11597,7 +11617,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.2));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.705));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11670,7 +11690,7 @@ body {
 }
 
 .signup-section {
-  padding: 10rem 0;
+  padding: 2rem 0;
   background: #0076bd;
   background-position: center;
   background-repeat: no-repeat;
