@@ -251,8 +251,10 @@ a {
   color: #0e1111;
   text-decoration: underline;
 }
-a:hover {
-  color: #0076bd ;
+
+.a2 {
+  color: rgba(255, 255, 255, 0.7) !important;
+  text-decoration: underline;
 }
 
 .ddl_icons {
@@ -381,7 +383,7 @@ textarea {
 
 .navimg {
   width: 220px;
-	height: 80px;
+	height: 75px;
 }
 
 button,
@@ -11621,8 +11623,11 @@ body {
   background-size: cover;
 }
 .masthead h1, .masthead .h1 {
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-family: "Dosis-SemiBold";
+  src: url(Dosis-SemiBold.ttf) format("truetype"); */
+  /* font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
    /* font-family: "Abril Fatface", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  font-family: 'Dosis', sans-serif ;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -11650,7 +11655,7 @@ body {
     font-size: 9.5rem;
     line-height: 8rem;
     letter-spacing: 0.6rem;
-    font-weight : bold;
+    /* font-weight : bold; */
   }
   .masthead h2, .masthead .h2 {
     max-width: 30rem;
